@@ -21,7 +21,7 @@ int main() {                            // este programa deve ser rodado com 'su
         usleep (1000000) ;
 	printf ("%d", dc);
 	}
-
+   }
     
          
    printf("Fim.\n");
