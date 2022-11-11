@@ -16,9 +16,9 @@ int main() {                            // este programa deve ser rodado com 'su
    printf("Iniciando...\n");
 	
      for(ciclos2=0; ciclos2<1748, ciclos2++){
-        pwmWrite ( pino_PWM0 , 120 ) ;
-        usleep (1000000) ;
-	printf ("%d", dc);
+        pwmWrite ( pino_PWM0 , ciclos2 ) ;
+        usleep (10000) ;
+	printf ("%d\n", ciclos2);
 	
      }
    
