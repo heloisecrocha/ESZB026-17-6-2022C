@@ -19,7 +19,7 @@ int main() {                            // este programa deve ser rodado com 'su
         pwmWrite ( pino_PWM0 , 120 ) ;
         usleep (1000000) ;
 	printf ("%d", dc);
-	pwmWrite (pino_PWM0, 0);
+	//pwmWrite (pino_PWM0, 0);
 	
    
     
