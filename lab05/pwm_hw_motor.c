@@ -13,11 +13,11 @@ int main() {                            // este programa deve ser rodado com 'su
    pwmSetMode(PWM_MODE_MS);             // usando frequencia fixa
    pwmSetRange(3495);                    // passos do duty cycle (max=4096)
    pwmSetClock(21);                     // fornece uma frequencia de 10kHz (max=4096)
-   printf("Iniciando...\n");
+   printf("Iniciandoooo...\n");
 	
-     for(ciclos2=0; ciclos2<1748, ciclos2++){
+     for(ciclos2=260; ciclos2<730; ciclos2++){
         pwmWrite ( pino_PWM0 , ciclos2 ) ;
-        usleep (10000) ;
+        usleep (50000) ;
 	printf ("%d\n", ciclos2);
 	
      }
