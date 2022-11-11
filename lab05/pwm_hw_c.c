@@ -15,10 +15,16 @@ int main() {                            // este programa deve ser rodado com 'su
    pwmSetClock(21);                     // fornece uma frequencia de 10kHz (max=4096)
    printf("Iniciando...\n");
    
+     dc = 1748;
    
+   for ( ciclos = 0; ciclos < 3; ciclos ++) { // variando o duty cycle
+       pwmWrite ( pino_PWM0 , dc );
+       usleep (300000);
+       pwmWrite ( pino_PWM0 , 0 );
+       usleep (300000);
    
-   
-      
+   }
+    
    printf("Fim.\n");
    return 0;                            // a saida PWM permanece ligada apos o termino do programa
 }
