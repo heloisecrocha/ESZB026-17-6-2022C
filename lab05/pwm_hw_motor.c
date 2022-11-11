@@ -18,7 +18,7 @@ int main() {                            // este programa deve ser rodado com 'su
    for ( ciclos = 0; ciclos < 4; ciclos ++) { // variando o duty cycle
         for ( dc = 0; dc < 128; dc ++) {
         pwmWrite ( pino_PWM0 , dc ) ;
-        usleep (10000) ;
+        usleep (1000000) ;
 	printf ("%d", dc);
 	}
 
