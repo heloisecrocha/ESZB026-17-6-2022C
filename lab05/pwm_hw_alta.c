@@ -1,4 +1,3 @@
-85% de armazenamento usado … Você pode liberar espaço ou comprar mais armazenamento para o Drive, o Gmail e o Google Fotos.
 // Ajustando o PWM por HARDWARE na Raspberry Pi
 
 #include <stdio.h>
