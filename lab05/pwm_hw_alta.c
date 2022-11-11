@@ -26,7 +26,7 @@ int main() {                            // este programa deve ser rodado com 'su
          usleep (2000000);
 
      }
-       usleep (500000)
+       usleep (500000);
 
      for ( ciclos2 = 0; ciclos2 < 2; ciclos2 ++) { // variando o duty cycle
          pwmWrite ( pino_PWM0 , dc );
